@@ -1,0 +1,92 @@
+@media screen and (max-width: 319px) {
+  .card {
+    width: 14rem;
+  }
+  .card__runtime {
+    margin-left: 1rem;
+  }
+
+  .card__price {
+    margin-left: 1rem;
+  }
+
+  .header__description {
+    width: 14rem;
+    font-size: 0.8rem;
+    margin-bottom: 2rem;
+  }
+  .header__title {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .main-content {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .header__description {
+    width: 27rem;
+  }
+  .card {
+    margin: 0 1rem 1rem 1rem;
+  }
+  .main-content {
+    padding: 2rem 4rem;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .main-content {
+    padding: 2rem 10rem;
+  }
+}
+
+@media screen and (min-width: 1599px) {
+  .main-content {
+    padding: 2rem 15rem;
+  }
+}
+
+@media screen and (min-width: 1720px) {
+  .main-content {
+    padding: 2rem 20rem;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .main-content {
+    padding: 2rem 25rem;
+  }
+}
+
+@media screen and (min-width: 2070px) {
+  .main-content {
+    padding: 2rem 30rem;
+  }
+}
+
+@media screen and (min-width: 2220px) {
+  .main-content {
+    padding: 2rem 35rem;
+  }
+}
+
+@media screen and (min-width: 2390px) {
+  .main-content {
+    padding: 2rem 40rem;
+  }
+}
+
+@media screen and (min-width: 2550px) {
+  .main-content {
+    padding: 2rem 45rem;
+  }
+}
+
+@media screen and (min-width: 2710px) {
+  .main-content {
+    padding: 2rem 50rem;
+  }
+}

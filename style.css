@@ -1,0 +1,100 @@
+body {
+  margin: 1rem 0;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  font-family: 'Manrope', sans-serif;
+}
+
+.header__title {
+  font-weight: 100;
+}
+
+.header__description {
+  font-weight: lighter;
+  margin-top: -1rem;
+  margin-bottom: 4rem;
+  color: #808080;
+  width: 20rem;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f7f7f7;
+  padding: 2rem 0;
+  font-family: 'Manrope', sans-serif;
+  font-weight: lighter;
+}
+
+.card {
+  align-items: center;
+  justify-content: center;
+  width: 18rem;
+  border-radius: 2px;
+  background-color: white;
+  box-shadow: 0px 0px 4px gray;
+  margin-bottom: 1rem;
+  padding-bottom: 6px;
+}
+
+.card__picture {
+  align-items: center;
+  justify-content: center;
+  border-radius: 2px 2px 0 0;
+  height: 12rem;
+  width: 100%;
+}
+
+.card__content {
+  padding: 0.5rem 1rem 0 1rem;
+}
+
+.card__description {
+  line-height: 1.4rem;
+  color: #4F4E4E;
+}
+
+.card__button {
+  background-color: white;
+  border: 1px solid #616161;
+  margin-right: 0px;
+  float: left;
+  margin-top: 1rem;
+  padding-top: 5px;
+  font-size: 10px;
+  color: #5B5B5B;
+}
+
+.card__button:hover {
+  cursor: pointer;
+}
+
+.card__button--left {
+  border-right: none;
+  border-radius: 2px 0 0 2px;
+}
+
+.card__button--right {
+  border-radius: 0 2px 2px 0;
+}
+
+.card__runtime {
+  display: inline-block;
+  margin-left: 3.5rem;
+  margin-top: 1.2rem;
+  font-size: 10px;
+  color: #5B5B5B;
+}
+
+.card__price {
+  display: inline-block;
+  margin-left: 3.5rem;
+  font-size: 10px;
+  color: #5B5B5B;
+}
